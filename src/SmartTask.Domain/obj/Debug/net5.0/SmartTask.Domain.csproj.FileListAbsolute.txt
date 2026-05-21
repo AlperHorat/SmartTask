@@ -1,0 +1,12 @@
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\bin\Debug\net5.0\SmartTask.Domain.deps.json
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\bin\Debug\net5.0\SmartTask.Domain.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\bin\Debug\net5.0\ref\SmartTask.Domain.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\bin\Debug\net5.0\SmartTask.Domain.pdb
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.csproj.AssemblyReference.cache
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.AssemblyInfoInputs.cache
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.AssemblyInfo.cs
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\ref\SmartTask.Domain.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.pdb

@@ -1,0 +1,17 @@
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Infrastructure.deps.json
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Infrastructure.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\ref\SmartTask.Infrastructure.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Infrastructure.pdb
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Application.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Domain.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Application.pdb
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\bin\Debug\net5.0\SmartTask.Domain.pdb
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.AssemblyInfo.cs
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.csproj.CopyComplete
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\ref\SmartTask.Infrastructure.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Infrastructure\obj\Debug\net5.0\SmartTask.Infrastructure.pdb

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "SmartTask.Persistence/1.0.0": {
+        "dependencies": {
+          "SmartTask.Application": "1.0.0",
+          "SmartTask.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SmartTask.Persistence.dll": {}
+        }
+      },
+      "SmartTask.Application/1.0.0": {
+        "dependencies": {
+          "SmartTask.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SmartTask.Application.dll": {}
+        }
+      },
+      "SmartTask.Domain/1.0.0": {
+        "runtime": {
+          "SmartTask.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartTask.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartTask.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartTask.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
