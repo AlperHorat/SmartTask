@@ -9,10 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SmartTask.Application\SmartTask.Application.csproj" />
     <ProjectReference Include="..\SmartTask.Infrastructure\SmartTask.Infrastructure.csproj" />
     <ProjectReference Include="..\SmartTask.Persistence\SmartTask.Persistence.csproj" />

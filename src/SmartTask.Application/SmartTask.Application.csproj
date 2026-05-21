@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SmartTask.Domain\SmartTask.Domain.csproj" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Users\DTOs\" />
+    <ProjectReference Include="..\SmartTask.Domain\SmartTask.Domain.csproj" />
   </ItemGroup>
 
 </Project>
