@@ -1,37 +1,8 @@
-## Visual Studio
 .vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-## Build outputs
 bin/
 obj/
-out/
-
-## NuGet
-*.nupkg
-packages/
-*.snupkg
-
-## EF Core
-Migrations/*Designer.cs
-Migrations/*Snapshot.cs
-
-## Logs
+*.user
+*.suo
 *.log
-
-## Rider / Resharper
-.idea/
-*.DotSettings.user
-
-## OS
-.DS_Store
-Thumbs.db
-
-## Publish
-publish/
-
-## Secrets
-appsettings.*.json
+packages/
+Migrations/*Snapshot.cs
