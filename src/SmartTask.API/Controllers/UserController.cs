@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SmartTask.Application.Features.Users.Commands;
 using SmartTask.Application.Features.Users.Queries;
+using System;
 using System.Threading.Tasks;
 
 namespace SmartTask.API.Controllers
@@ -28,6 +29,26 @@ namespace SmartTask.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _mediator.Send(new GetAllUsersQuery());
+            return Ok(result);
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var result = await _mediator.Send(new GetUserByIdQuery(id));
+            return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateUserCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await _mediator.Send(new DeleteUserCommand(id));
             return Ok(result);
         }
     }
