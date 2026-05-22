@@ -5,19 +5,24 @@ VisualStudioVersion = 16.0.36631.11
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3DD10350-E22D-4B88-99DA-D4AF4A53F2EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.API", "src\SmartTask.API\SmartTask.API.csproj", "{5301FEC9-98ED-4D55-9EFD-7691DDD94F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTask.API", "src\SmartTask.API\SmartTask.API.csproj", "{5301FEC9-98ED-4D55-9EFD-7691DDD94F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Domain", "src\SmartTask.Domain\SmartTask.Domain.csproj", "{5980E38D-0FDB-4502-B386-1CFB5E5DA6DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTask.Domain", "src\SmartTask.Domain\SmartTask.Domain.csproj", "{5980E38D-0FDB-4502-B386-1CFB5E5DA6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Application", "src\SmartTask.Application\SmartTask.Application.csproj", "{572323F8-C95E-4CA0-848B-EFBFDB9CF938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTask.Application", "src\SmartTask.Application\SmartTask.Application.csproj", "{572323F8-C95E-4CA0-848B-EFBFDB9CF938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Persistence", "src\SmartTask.Persistence\SmartTask.Persistence.csproj", "{FD3DBC55-17AA-48EB-9AD5-97BBB05B89EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTask.Persistence", "src\SmartTask.Persistence\SmartTask.Persistence.csproj", "{FD3DBC55-17AA-48EB-9AD5-97BBB05B89EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Infrastructure", "src\SmartTask.Infrastructure\SmartTask.Infrastructure.csproj", "{40CD3C08-23A8-45CD-ABA5-FEC3BBDE694E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTask.Infrastructure", "src\SmartTask.Infrastructure\SmartTask.Infrastructure.csproj", "{40CD3C08-23A8-45CD-ABA5-FEC3BBDE694E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6F93FAA4-6C27-43EF-8A25-3987E8E8B7B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.UnitTests", "tests\SmartTask.UnitTests\SmartTask.UnitTests.csproj", "{2543F5D6-8391-427F-8427-1B24C8311229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartTask.UnitTests", "tests\SmartTask.UnitTests\SmartTask.UnitTests.csproj", "{2543F5D6-8391-427F-8427-1B24C8311229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1FB3F04-0EB1-482F-9012-7E3A98CB3B7D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
