@@ -15,3 +15,6 @@ C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\obj\Debug\n
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\obj\Debug\net5.0\SmartTask.Persistence.dll
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\obj\Debug\net5.0\ref\SmartTask.Persistence.dll
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\obj\Debug\net5.0\SmartTask.Persistence.pdb
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\bin\Debug\net5.0\SmartTask.Persistence.runtimeconfig.json
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\bin\Debug\net5.0\SmartTask.Persistence.runtimeconfig.dev.json
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Persistence\obj\Debug\net5.0\SmartTask.Persistence.genruntimeconfig.cache
