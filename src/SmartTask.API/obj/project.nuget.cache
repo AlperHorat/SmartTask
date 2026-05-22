@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H27FxXkQHGyI6w9AafZi2PrbZW4TBl0A6WvGqSo3mdpTeDef7wx7y8m9cRXAVLO1iphyCg4W/u4jlDesKIYWVQ==",
+  "dgSpecHash": "/fga8MjUxOdSVh4+WKmgO1z3ATiNNLqFc3hLSGsk8LFS4LllSFK0okBzqGue63zyoIeb8/e8XMHbTsio7OXcHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\AyselAlper\\source\\repos\\SmartTask\\src\\SmartTask.API\\SmartTask.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AyselAlper\\.nuget\\packages\\fluentvalidation\\9.1.1\\fluentvalidation.9.1.1.nupkg.sha512",
+    "C:\\Users\\AyselAlper\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.1\\fluentvalidation.dependencyinjectionextensions.9.1.1.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

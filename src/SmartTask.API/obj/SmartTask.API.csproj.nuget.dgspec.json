@@ -129,6 +129,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.1.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[14.1.0, )"

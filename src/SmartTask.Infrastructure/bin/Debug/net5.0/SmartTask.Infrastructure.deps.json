@@ -14,6 +14,26 @@
           "SmartTask.Infrastructure.dll": {}
         }
       },
+      "FluentValidation/9.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.1.1.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/9.1.1": {
+        "dependencies": {
+          "FluentValidation": "9.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.1.1.0"
+          }
+        }
+      },
       "MediatR/14.1.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
@@ -182,6 +202,8 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "SmartTask.Application/1.0.0": {
         "dependencies": {
+          "FluentValidation": "9.1.1",
+          "FluentValidation.DependencyInjectionExtensions": "9.1.1",
           "MediatR": "14.1.0",
           "SmartTask.Domain": "1.0.0"
         },
@@ -201,6 +223,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/9.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7ztrqgJaKD5+tbnQwdRKPrL1EChnfpMzqvkRIQk9IogovAyvBAAdDiiZvO8+q0xeFyMUbSUOsSMBdKDMjjDaKQ==",
+      "path": "fluentvalidation/9.1.1",
+      "hashPath": "fluentvalidation.9.1.1.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/9.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DG7cReJfu+V+ylNq4M1OqF9iyw2QhKNJJr5U1D2D0X15Tn9jLzBRMXrO/rY5fIVpG/fIB7U9Is+2YWkSDokB7w==",
+      "path": "fluentvalidation.dependencyinjectionextensions/9.1.1",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.9.1.1.nupkg.sha512"
     },
     "MediatR/14.1.0": {
       "type": "package",

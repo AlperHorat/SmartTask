@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7fff4Ru8V/Htb2YR/4d6PD4QDl/ml5KMzWh42JZqS801ATfnqHdM8L03DO5m9/N1YwSwD3J+nQukeRA4IBGysg==",
+  "dgSpecHash": "8pLLFLdtxAIwg8v3UqgFAoD5IRTwTqYzetSMCEyN2R6LGrOvANamgrRlCzW1DZ61v3Ai4h1mXtml9V+ROCwAHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\AyselAlper\\source\\repos\\SmartTask\\src\\SmartTask.Application\\SmartTask.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AyselAlper\\.nuget\\packages\\fluentvalidation\\9.1.1\\fluentvalidation.9.1.1.nupkg.sha512",
+    "C:\\Users\\AyselAlper\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.1\\fluentvalidation.dependencyinjectionextensions.9.1.1.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.0\\microsoft.bcl.asyncinterfaces.10.0.0.nupkg.sha512",

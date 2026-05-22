@@ -1,6 +1,8 @@
 ﻿
+using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using SmartTask.Application.Behaviors;
 using System.Reflection;
 
 namespace SmartTask.Application
@@ -9,17 +11,14 @@ namespace SmartTask.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            // MediatR
             services.AddMediatR(cfg =>
             {
                 cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
             });
 
-            // FluentValidation
-            //services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
 
-            // Pipeline Behaviors
-            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
             return services;
         }

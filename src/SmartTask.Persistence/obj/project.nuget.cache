@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UtuGy/yUq72vhbdFn5fXa8xQnfqRXXAVif3pFQnAF3aHbsAT1jcLLODvGNm3OfERDlekp3DQVaOBi2KfMM039w==",
+  "dgSpecHash": "XSP2/fThOiCDc4KjHj6cDr/lhvPj1WZHb6n17P/6wzmrTKaN9RoajvOgI0dL9H/JyXjjBAuSN5fSUavn9bMEGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\AyselAlper\\source\\repos\\SmartTask\\src\\SmartTask.Persistence\\SmartTask.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AyselAlper\\.nuget\\packages\\fluentvalidation\\9.1.1\\fluentvalidation.9.1.1.nupkg.sha512",
+    "C:\\Users\\AyselAlper\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.1\\fluentvalidation.dependencyinjectionextensions.9.1.1.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\AyselAlper\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
