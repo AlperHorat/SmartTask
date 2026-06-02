@@ -1,0 +1,34 @@
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using SmartTask.Application.Features.Tasks.Commands;
+using SmartTask.Application.Features.Tasks.Queries;
+using System.Threading.Tasks;
+
+namespace SmartTask.API.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class TasksController : ControllerBase
+    {
+        private readonly IMediator _mediator;
+
+        public TasksController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateTaskCommand command)
+        {
+            var result = await _mediator.Send(command);
+            return Ok(result);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _mediator.Send(new GetAllTasksQuery());
+            return Ok(result);
+        }
+    }
+}
