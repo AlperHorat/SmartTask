@@ -38,5 +38,11 @@ namespace SmartTask.Persistence.Repositories
             await _context.Tasks.AddAsync(task);
             await _context.SaveChangesAsync();
         }
+        public async Task UpdateAsync(TaskItem task)
+        {
+            _context.Tasks.Update(task);
+
+            await _context.SaveChangesAsync();
+        }
     }
 }

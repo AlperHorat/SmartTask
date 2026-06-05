@@ -12,5 +12,6 @@ namespace SmartTask.Application.Interfaces
         Task<List<TaskItem>> GetAllAsync();
 
         Task AddAsync(TaskItem task);
+        Task UpdateAsync(TaskItem task);
     }
 }

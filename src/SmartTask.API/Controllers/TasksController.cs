@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SmartTask.Application.Features.Tasks.Commands;
 using SmartTask.Application.Features.Tasks.Queries;
+using System;
 using System.Threading.Tasks;
 
 namespace SmartTask.API.Controllers
@@ -28,6 +29,15 @@ namespace SmartTask.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             var result = await _mediator.Send(new GetAllTasksQuery());
+            return Ok(result);
+        }
+        [HttpPatch("{id}/status")]
+        public async Task<IActionResult> UpdateStatus(Guid id, [FromBody] UpdateTaskStatusCommand command)
+        {
+            command.TaskId = id;
+
+            var result = await _mediator.Send(command);
+
             return Ok(result);
         }
     }
