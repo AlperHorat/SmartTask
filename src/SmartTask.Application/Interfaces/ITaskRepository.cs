@@ -13,5 +13,6 @@ namespace SmartTask.Application.Interfaces
 
         Task AddAsync(TaskItem task);
         Task UpdateAsync(TaskItem task);
+        Task<List<TaskItem>> GetByProjectIdAsync(Guid projectId);
     }
 }

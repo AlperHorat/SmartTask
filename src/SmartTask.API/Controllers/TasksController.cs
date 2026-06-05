@@ -40,5 +40,15 @@ namespace SmartTask.API.Controllers
 
             return Ok(result);
         }
+        [HttpGet("project/{projectId}")]
+        public async Task<IActionResult> GetByProject(Guid projectId)
+        {
+            var result = await _mediator.Send(new GetTasksByProjectQuery
+            {
+                ProjectId = projectId
+            });
+
+            return Ok(result);
+        }
     }
 }

@@ -4,6 +4,7 @@ using SmartTask.Domain.Entities;
 using SmartTask.Persistence.Data;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace SmartTask.Persistence.Repositories
@@ -43,6 +44,14 @@ namespace SmartTask.Persistence.Repositories
             _context.Tasks.Update(task);
 
             await _context.SaveChangesAsync();
+        }
+        public async Task<List<TaskItem>> GetByProjectIdAsync(Guid projectId)
+        {
+            return await _context.Tasks
+                .Include(t => t.Project)
+                .Include(t => t.AssignedUser)
+                .Where(t => t.ProjectId == projectId)
+                .ToListAsync();
         }
     }
 }

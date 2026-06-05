@@ -97,3 +97,4 @@ C:\Users\AyselAlper\source\repos\SmartTask\tests\SmartTask.UnitTests\obj\Debug\n
 C:\Users\AyselAlper\source\repos\SmartTask\tests\SmartTask.UnitTests\obj\Debug\net5.0\ref\SmartTask.UnitTests.dll
 C:\Users\AyselAlper\source\repos\SmartTask\tests\SmartTask.UnitTests\obj\Debug\net5.0\SmartTask.UnitTests.pdb
 C:\Users\AyselAlper\source\repos\SmartTask\tests\SmartTask.UnitTests\obj\Debug\net5.0\SmartTask.UnitTests.genruntimeconfig.cache
+C:\Users\AyselAlper\source\repos\SmartTask\tests\SmartTask.UnitTests\obj\Debug\net5.0\SmartTask.UnitTests.csproj.AssemblyReference.cache
