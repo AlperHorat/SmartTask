@@ -50,5 +50,15 @@ namespace SmartTask.API.Controllers
 
             return Ok(result);
         }
+        [HttpGet("user/{userId}")]
+        public async Task<IActionResult> GetByUser(Guid userId)
+        {
+            var result = await _mediator.Send(new GetTasksByUserQuery
+            {
+                UserId = userId
+            });
+
+            return Ok(result);
+        }
     }
 }

@@ -53,5 +53,13 @@ namespace SmartTask.Persistence.Repositories
                 .Where(t => t.ProjectId == projectId)
                 .ToListAsync();
         }
+        public async Task<List<TaskItem>> GetByUserIdAsync(Guid userId)
+        {
+            return await _context.Tasks
+                .Include(t => t.Project)
+                .Include(t => t.AssignedUser)
+                .Where(t => t.AssignedUserId == userId)
+                .ToListAsync();
+        }
     }
 }
