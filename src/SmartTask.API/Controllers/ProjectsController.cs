@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SmartTask.Application.Features.Projects.Commands;
 using SmartTask.Application.Features.Projects.Queries;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartTask.API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ProjectsController : ControllerBase

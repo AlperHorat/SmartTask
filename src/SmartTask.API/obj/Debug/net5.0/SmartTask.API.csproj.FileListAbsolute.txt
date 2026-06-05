@@ -59,3 +59,11 @@ C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Hu
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

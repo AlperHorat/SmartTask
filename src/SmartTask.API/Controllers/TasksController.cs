@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SmartTask.Application.Features.Tasks.Commands;
 using SmartTask.Application.Features.Tasks.Queries;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace SmartTask.API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class TasksController : ControllerBase
@@ -24,7 +26,6 @@ namespace SmartTask.API.Controllers
             var result = await _mediator.Send(command);
             return Ok(result);
         }
-
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
