@@ -28,7 +28,8 @@ namespace SmartTask.Application.Features.Auth.Commands
                 Id = Guid.NewGuid(),
                 FirstName = request.UserName,
                 Email = request.Email,
-                PasswordHash = request.Password // şimdilik plain, sonra hash ekleyeceğiz
+                PasswordHash = request.Password,
+                Role = request.Role ?? "User"
             };
 
             await _userRepository.AddAsync(user);

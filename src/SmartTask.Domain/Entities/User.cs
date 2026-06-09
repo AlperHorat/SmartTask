@@ -12,5 +12,6 @@ namespace SmartTask.Domain.Entities
         public string PasswordHash { get; set; }
 
         public ICollection<Project> Projects { get; set; }
+        public string Role { get; set; } = "User";
     }
 }

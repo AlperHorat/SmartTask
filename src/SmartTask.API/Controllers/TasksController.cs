@@ -19,7 +19,7 @@ namespace SmartTask.API.Controllers
         {
             _mediator = mediator;
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Create(CreateTaskCommand command)
         {

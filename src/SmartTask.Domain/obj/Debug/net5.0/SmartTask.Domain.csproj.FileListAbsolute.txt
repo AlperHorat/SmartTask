@@ -9,4 +9,3 @@ C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.dll
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\ref\SmartTask.Domain.dll
 C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.pdb
-C:\Users\AyselAlper\source\repos\SmartTask\src\SmartTask.Domain\obj\Debug\net5.0\SmartTask.Domain.csproj.AssemblyReference.cache
